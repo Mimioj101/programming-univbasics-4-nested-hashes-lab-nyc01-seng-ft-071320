@@ -36,11 +36,7 @@ def alan_kay_is_known_for
         :known_for => "Unix",
         :languages => ["C"]
       }
-    }
-    
-  programmer_hash[:alan_kay][:known_for] = "Object Orientation"
-  
-  programmer_hash
+ 		}
 
 end
 
@@ -113,6 +109,7 @@ def changing_alan
       }
     }
 programmer_hash[:alan_kay][:known_for] = "GUI"
+programmer_hash
 end
 
 def adding_to_dennis
